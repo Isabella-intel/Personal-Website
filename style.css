@@ -1,0 +1,107 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Set a dark background color and text color */
+body {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: #151515;
+    padding: 20px 0;
+}
+
+/* Navigation menu */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #7fff00; /* Green text color */
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #00ff7f; /* Lighter green on hover */
+}
+
+/* Banner styling */
+.banner {
+    text-align: center;
+    padding: 150px 0;
+    position: relative;
+}
+
+.banner .heading {
+    background-color: #008040; /* Darker green rectangle */
+    color: #ffffff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.goal {
+    margin-bottom: 20px;
+}
+
+.goal h2 {
+    color: #7fff00; /* Green heading color */
+    margin-bottom: 10px;
+}
+
+.about-button {
+    display: inline-block;
+    background-color: #008040; /* Darker green button */
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.about-button:hover {
+    background-color: #00a060; /* Lighter green on hover */
+}
+
+/* Main content container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* Section headings */
+.heading {
+    background-color: #008040; /* Darker green rectangle */
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #151515;
+    color: #808080;
+    padding: 20px 0;
+    text-align: center;
+}
